@@ -61,10 +61,32 @@ python clean_property_listings.py
 Edit the `SRC` and `OUT` paths at the top of the script to match your folders.
 
 ## Key Insights
-*(Fill these in after exploring the dashboard)*
-- [e.g. Taman Duta and Country Heights Damansara have the highest median prices]
-- [e.g. Most listings sit in the RM 500k–1M band]
-- [e.g. Condominiums make up the largest share of listings]
+
+### Market overview
+1. **The typical listing is priced at RM 1.0 million**, but the average is RM 1.88 million. A small number of very expensive listings pull the average up, so the median is the better measure.
+2. **Half of all listings (50%) are priced under RM 1 million.** About 17% are under RM 500k, 33% fall in RM 500k–1M, 25% in RM 1–2M, 18% in RM 2–5M, and only 7% are above RM 5M.
+3. **Typical size and price per sq ft:** the median built-up size is about 1,260 sq ft, and the median price is about RM 682 per sq ft.
+
+### Property types
+4. **Condominiums and serviced residences make up two-thirds of the market** (43% and 24% of listings).
+5. **Serviced residences are the most expensive per sq ft among the main types, at about RM 928**, compared with RM 625 for condominiums and RM 602 for terrace houses. Their units are also small (about 1,000 sq ft median), so the price per sq ft is high even though the total price (about RM 850k) is not.
+6. **Terrace and link houses give the most space for the money among landed homes**: a median of about 1,760 sq ft for about RM 1.1M, at about RM 602 per sq ft.
+7. **Bungalows and semi-detached houses are a different price tier**, with a median price of about RM 4.0M and a median size of about 6,000 sq ft.
+8. **Apartments and flats are the most affordable option**, at a median of about RM 325k and about RM 366 per sq ft.
+
+### Areas
+9. **Mont Kiara (5,215 listings) and KLCC (4,609) have the most listings**, followed by Cheras, Jalan Klang Lama (Old Klang Road), Setapak and Bukit Jalil.
+10. **KLCC has the highest price per sq ft among the large areas, at about RM 1,323**, followed by KL Eco City (about RM 1,291), KL Sentral (about RM 1,289) and Bukit Bintang (about RM 1,106).
+11. **The highest median prices are in prestige landed areas**: Taman Duta (about RM 12.0M), Country Heights Damansara (about RM 6.4M), Federal Hill (about RM 6.0M) and Damansara Heights (about RM 4.8M).
+12. **Bangsar is the most expensive large area** by median price (about RM 3.2M across 1,771 listings), and it is also high at about RM 987 per sq ft.
+13. **The cheapest areas are Bandar Tasik Selatan, Desa Petaling and Jinjang**, with medians of about RM 330k–360k and about RM 300–355 per sq ft.
+14. **Price per sq ft does not always follow total price.** Taman Duta tops the median price chart, but its price per sq ft is only about RM 889 because its homes are very large. This is why the dashboard lets you rank by either measure.
+
+### Bedrooms and furnishing
+15. **Three-bedroom homes dominate, at 43% of listings.** Next are 4-bedroom (19%) and 2-bedroom (14%) homes, while studios are only about 2%.
+16. **Partly furnished is the most common furnishing level (about 50%)**, followed by fully furnished (26%), unknown (14%) and unfurnished (11%).
+17. **Serviced residences are the most likely to be fully furnished** (42%, against 28% for condominiums and 10% for terrace houses).
+18. **Fully furnished listings have a higher median price per sq ft (about RM 823) than unfurnished ones (about RM 523).** This is partly because furnished units are mostly in pricier condo and serviced-residence areas, so it does not prove that furnishing alone adds value.
 
 ## Limitations
 - Prices are **asking prices**, not completed transactions, so they are often higher than actual sale prices.
